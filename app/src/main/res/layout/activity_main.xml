@@ -15,22 +15,22 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"
+        android:padding="@dimen/padding"
         android:text="@string/birthday"
         android:textAllCaps="true"
         android:textColor="@color/text"
-        android:textSize="20sp" />
+        android:textSize="@dimen/text" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:padding="16dp"
+        android:padding="@dimen/padding"
         android:text="@string/name"
         android:textAllCaps="true"
         android:textColor="@color/text"
-        android:textSize="20sp" />
+        android:textSize="@dimen/text" />
 
 </RelativeLayout>
 
